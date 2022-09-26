@@ -1,0 +1,11 @@
+[package]
+name = "dummy_prover"
+version = "0.1.0"
+authors = ["Guillaume Drevon <guipublic@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+acvm = { git = "https://github.com/noir-lang/noir", features = ["bn254"] }
+blake2 = "0.9.1"
